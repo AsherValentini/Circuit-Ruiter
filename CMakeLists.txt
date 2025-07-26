@@ -8,6 +8,6 @@ add_executable(prog
 	src/main.cpp
 )
 
-target_include_directories(prog PRIVATE include)
+target_include_directories(prog PRIVATE include src)
 
 
